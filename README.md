@@ -17,3 +17,15 @@ This project demonstrates the deployment, configuration, and troubleshooting of 
 - Provisioned **AD DS** on `DC01` to establish the `lab.local` root domain.
 - Configured **DNS Server** roles to handle internal name resolution and domain locating records (`_ldap`, `_kerberos`).
 - Created domain user accounts (`johty`, `jdoe`) in **Active Directory Users and Computers (ADUC)**.
+
+## 2. Network Isolation & Troubleshooting
+
+Configured a custom VirtualBox **NAT Network** to allow inter-VM communication while isolating the environment from the physical host network.
+
+Resolved DNS query timeouts by tuning client IPv4 DNS properties and modifying host firewall rules on `DC01` via PowerShell:
+
+```powershell
+Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
+
+ping 10.0.2.50
+nslookup dc01.lab.local
