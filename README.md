@@ -10,6 +10,8 @@ This project demonstrates the deployment, configuration, and troubleshooting of 
 - **Domain Controller (`DC01`):** `10.0.2.50` | Windows Server 2022
 - **Client Workstation (`CLIENT01`):** `10.0.2.15` (DHCP) | Windows 11 Pro
 
+![VirtualBox Lab Infrastructure Setup](IMG_4337.jpeg)
+
 ## Implementation Steps
 
 ### 1. Active Directory & DNS Configuration
