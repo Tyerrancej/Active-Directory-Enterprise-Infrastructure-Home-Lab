@@ -18,6 +18,7 @@ This project demonstrates the deployment, configuration, and troubleshooting of 
 - Configured **DNS Server** roles to handle internal name resolution and domain locating records (`_ldap`, `_kerberos`).
 - Created domain user accounts (`johty`, `jdoe`) in **Active Directory Users and Computers (ADUC)**.
 
+![Active Directory Groups](IMG_4344.jpeg)
 ## 2. Network Isolation & Troubleshooting
 
 Configured a custom VirtualBox **NAT Network** to allow inter-VM communication while isolating the environment from the physical host network.
