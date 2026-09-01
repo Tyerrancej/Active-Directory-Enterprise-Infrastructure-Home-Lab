@@ -1,4 +1,4 @@
-# Active-Directory-Enterprise-Infrastructure-Home-Lab
+S# Active-Directory-Enterprise-Infrastructure-Home-Lab
 ## Executive Summary
 
 This project demonstrates the deployment, configuration, and troubleshooting of a centralized Active Directory Domain Services (AD DS) environment using Oracle VirtualBox. The lab features a Windows Server 2022 Domain Controller (`DC01`) and a Windows 11 endpoint (`CLIENT01`) running on a dedicated virtual NAT network.
@@ -32,5 +32,6 @@ Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
 
 ping 10.0.2.50
 nslookup dc01.lab.local
+` ``` `
 
 ![PowerShell Ping Test](IMG_4340.jpeg)
