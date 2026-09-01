@@ -25,6 +25,8 @@ This project demonstrates the deployment, configuration, and troubleshooting of 
 
 Configured a custom VirtualBox **NAT Network** to allow inter-VM communication while isolating the environment from the physical host network.
 
+![Domain Authentication Verification](IMG_4338.jpeg)
+
 Resolved DNS query timeouts by tuning client IPv4 DNS properties and modifying host firewall rules on `DC01` via PowerShell:
 
 ```powershell
