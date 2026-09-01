@@ -32,6 +32,6 @@ Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
 
 ping 10.0.2.50
 nslookup dc01.lab.local
-` ``` `
+````
 
 ![PowerShell Ping Test](IMG_4340.jpeg)
