@@ -35,3 +35,4 @@ nslookup dc01.lab.local
 ````
 
 ![PowerShell Ping Test](IMG_4340.jpeg)
+![PowerShell Network and Firewall Configuration](IMG_4339.jpeg)
