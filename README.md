@@ -22,6 +22,7 @@ This project demonstrates the deployment, configuration, and troubleshooting of 
 
 ![Active Directory Groups](IMG_4344.jpeg)
 ![Group Membership Management](IMG_4341.jpeg)
+![DNS Forwarder Configuration](IMG_4342.png)
 ![Joined Client Workstation in Active Directory](IMG_4335.jpeg)
 ![Group Policy Password Policy Configuration](IMG_4336.jpeg)
 
